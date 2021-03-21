@@ -19,7 +19,7 @@ $(document).ready(function(){
             author: "The Little Prince"},
             {quote: "They laugh at me because I'm different I laugh at them because they're all the same",
             author: "Kurt Cobain"},
-            {quote: "How lucky I am to have something that makes saying goodeye so hard",
+            {quote: "How lucky I am to have something that makes saying goodbye so hard",
             author: "Winnie the Pooh"},
             {quote: "Things change and friends leave. Life doesn't stop for anybody",
             author: "Stephen Chbosky"},
