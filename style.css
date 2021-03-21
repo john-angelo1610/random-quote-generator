@@ -1,0 +1,45 @@
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+a:hover{
+    opacity: .5
+}
+
+#quote-box{
+    position: relative;
+    padding: 30px;
+    margin-top: 20vh;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#quote-box::after {
+    position: absolute;
+    content: '';
+    border: 50px solid transparent;
+    border-right-color: #f8f9fa;
+    bottom: -44px;
+    right: 90%;
+    transform: rotate(45deg);
+}
+
+#text{
+    font-size: 1.7em;
+}
+
+#author{
+    font-size: 1em;
+}
+
+@media (max-width: 991.98px) {
+    #quote-box::after{
+        right: 85%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #quote-box::after{
+        display: none;
+    }
+}
+
+
