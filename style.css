@@ -23,11 +23,11 @@ a:hover{
 }
 
 #text{
-    font-size: 1.7em;
+    font-size: 1.3em;
 }
 
 #author{
-    font-size: 1em;
+    font-size: .9em;
 }
 
 @media (max-width: 991.98px) {
@@ -41,5 +41,3 @@ a:hover{
         display: none;
     }
 }
-
-
